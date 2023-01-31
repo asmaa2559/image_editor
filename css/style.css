@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #333;
+} 
+.upload label{
+    color: #fff;
+    padding: 8px 20px;
+    border: 2px #fff dashed;
+    cursor: pointer;
+}
+.filters ul , .filters ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    direction: rtl;
+}
+.boton {
+  font-size: 25px;
+}
